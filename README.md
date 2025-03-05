@@ -138,7 +138,7 @@ If you like this project, consider giving it a ⭐ on  **GitHub** !
 
 ## 📜 **License**
 
-This project is open-source and available under the  **MIT LICENSE** .
+This project is open-source and available under the  **MIT  [LICENSE](LICENSE)** .
 
 ## 📬 **Connect with Me**
 
