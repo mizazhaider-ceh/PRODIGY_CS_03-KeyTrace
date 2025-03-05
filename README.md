@@ -1,5 +1,4 @@
 # KeyTrace - Ethical Keylogger 🖥️
-
 ![KeyTrace](screenshots/logo.png)
 
 ## **Developed by:** Muhammad Izaz Haider
