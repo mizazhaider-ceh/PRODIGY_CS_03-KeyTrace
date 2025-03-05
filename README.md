@@ -52,7 +52,7 @@ PRODIGY_CS_03-KeyTrace/
 
 ### **🔹 Project Logo:**
 
-![Logo](screenshots/logo.png)
+![Logo](screenshots/logo1.png)
 
 ### **🔹 KeyTrace Running:**
 
