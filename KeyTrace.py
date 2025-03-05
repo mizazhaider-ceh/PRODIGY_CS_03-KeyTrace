@@ -26,7 +26,7 @@ banner = """ \033[32m
 ██║  ██╗███████╗   ██║          ██║   ██║  ██║██║  ██║╚██████╗███████╗
 ╚═╝  ╚═╝╚══════╝   ╚═╝          ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝
 \033[0m
-    \033[35m~~~~~  Developed by Aspiring Penster Mr. Izaz   ~~~~~ \033[0m 
+    \033[35m~~~~~  Developed by Aspiring Pentester Mr. Izaz   ~~~~~ \033[0m 
     \033[38;5;220m~~~~~  Follow Here: GitHub.com/mizazhaider-ceh  ~~~~~\033[0m
 \033[94m~~~~~ Internship Task/Project Assigned by ProDigy Infotech ~~~~~\033[0m
 """
