@@ -1,5 +1,14 @@
 # KeyTrace - Ethical Keylogger 🖥️
+
+[![Python 3.x](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![KeyTrace](screenshots/logo1.png)
+
+> ⚠️ **Ethical use only.** KeyTrace is a learning project built to understand
+> event-driven programming and responsible tool design. Run it **only on machines
+> you own or have explicit written permission to test**. Unauthorized keystroke
+> logging is illegal in most countries.
 
 ## **Developed by:** Muhammad Izaz Haider
 
@@ -13,7 +22,11 @@
 
 KeyTrace records key presses and logs them into a text file (`keylog.txt`). It includes the following features:
 
-✔️ Logs all keystrokes (excluding special keys like Shift, Ctrl, etc.)
+✔️ Logs all keystrokes (excluding modifier keys like Shift, Ctrl, Alt)
+
+✔️ Readable tags for special keys (`[TAB]`, `[BACKSPACE]`, `[CAPS LOCK]`, ...)
+
+✔️ Timestamped session markers in the log so separate runs stay distinguishable
 
 ✔️ Saves keystrokes to an external file (`keylog.txt`)
 
@@ -40,12 +53,14 @@ KeyTrace records key presses and logs them into a text file (`keylog.txt`). It i
 ```
 PRODIGY_CS_03-KeyTrace/
 │── KeyTrace.py         # Main Python script
+│── requirements.txt    # Python dependencies (pynput)
+│── tests/              # Unit tests (python3 -m unittest discover -s tests)
 │── README.md           # Project documentation
 │── screenshots/        # Folder containing example outputs
-│   │── logo.png        # Project logo
+│   │── logo1.png       # Project logo
 │   │── log.png         # Example of key logging
 │   │── working.png     # KeyTrace in action
-│   │── stopping.png    # Stopping the keylogger
+│   │── stoping.png     # Stopping the keylogger
 ```
 
 ## 🖥 **Screenshots**
@@ -98,7 +113,15 @@ cd PRODIGY_CS_03-KeyTrace
 Install the required Python package:
 
 ```bash
+pip install -r requirements.txt
+# or directly:
 pip install pynput
+```
+
+### **🔹 Run the Tests**
+
+```bash
+python3 -m unittest discover -s tests
 ```
 
 ### **🔹 Run the Program**
